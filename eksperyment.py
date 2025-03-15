@@ -19,7 +19,7 @@ datasets = ["animals-14x9.csv",
                 "gen_pattern-5x5.csv"
         ]
 
-path = "./data/hopfield/eksperyment6/"
+path = "./data/"
 
 
 train, dims = read_csv.read_patterns(path + "/../" + datasets[7])
